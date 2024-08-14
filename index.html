@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="right-container">
+            <div class="image-logo">
+                <img src="images/odin-lined.png" alt="odin logo" class="image">
+                <h1>ODIN</h1>
+            </div>
+            <div class="photographer">
+                <p>Photo by <a href="https://unsplash.com/@dzngriffin">Griffin Wooldridge</a> on <a href="https://unsplash.com/">Unsplach</a></p>
+            </div>
+        </div>
+        <div class="form-container">
+            <p>This is not a real online service! You know you need something<br>  like this in your life to help you realize your deepest dreams.<br> Sign up now to get started.</p>
+            <p>You <em>know</em> you want this</p>
+            <form action="" method="get" id="form-layout" class="form">
+                <h2>Lets do this!</h2>
+                <section class="name-section">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" id="first-name" name="first-name">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" id="last-name" name="last-name">
+                </section>
+                <section class="info-section">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" name="phone" id="phone">
+                </section>
+                <section class="password-section">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password">
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm-password" id="confirm-password">
+                </section>
+            </form>
+
+            <button type="submit" class="submit" form="form-layout">Create Account</button>
+            <span>Already have an account? <a href="">Log in</a></span>
+        </div>
+    </div>
+</body>
+</html>

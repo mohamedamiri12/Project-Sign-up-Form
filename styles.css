@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(14, 14, 14);
+}
+
+.container{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+
+.right-container{
+    background-image: url("images/background-image.jpg");
+    background-size: cover;
+    flex-basis: 40%;
+    position: relative;
+    height: 100vh;
+}
+
+.image-logo{
+    display: flex;
+    position:absolute;
+    top: 20%;
+    color: white;
+    background-color: rgb(0 0 0 / 50%);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.image-logo h1{
+    font-size: 50px;
+}
+
+.image{
+    width: 100px;
+    height: 120px;
+}
+
+
+.form-container{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5em;
+    background-color: #f9fafb;
+}
+
+.submit{
+    background-color: #596D48;
+    border-radius: 5px;
+    width: 180px;
+    color: white;
+    padding: 8px;
+    margin: 0px 30px;
+    border: none;
+    padding: 10px;
+}
+
+.submit:hover{
+    cursor: pointer;
+}
+
+.form section{
+    position: relative;
+}
+
+.form label{
+    position: absolute;
+    bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+
+}
+
+.form input{ 
+    margin-right: 50px;
+    height: 2em;
+    width: 15em;
+}
+
+.form input:invalid{
+    outline: none; 
+    border-color: red;
+}
+
+.form input:focus{
+    outline: none; 
+    border: solid 1px lightblue;
+    box-shadow:  0 0 0 0.1em #66ccff;
+}
+
+.form-container p{
+    margin: 0px 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+} 
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #ffffff;
+    padding: 20px 0px;
+    box-shadow: 0 0 5px 1px rgba(0, 0,0, 0.5);
+}
+
+.form section, form h2{
+    padding-left: 30px;
+}
+
+a, a:visited {
+    color:  #596D48;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+span{
+    padding-left: 30px;
+}
+
+.photographer{
+    position: absolute;
+    top: 52em;
+    background-color: antiquewhite;
+    left: 50px;
+}
